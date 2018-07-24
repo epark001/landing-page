@@ -1,0 +1,123 @@
+:root {
+  --primary-color: 	#000000;
+  --secondary-color: #FFFFFF;
+}
+
+body {
+  background-color: black;
+}
+
+input[type=text] {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  color: white;
+}
+
+input[type=text]:focus {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  outline: 0;
+  color: white;
+}
+
+input[type=password] {
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+}
+
+input[type=password]:focus {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  outline: 0;
+  color: white;
+}
+
+.a-row a{
+  color: white;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  /* color: white; */
+  /* display: block; */
+}
+
+.form-container{
+    justify-content: space-evenly;
+}
+
+.socialIcons {
+  width: 43px;
+  height: 43px;
+}
+
+#Login-Container {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+#Create-Container {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+#Forget-Container {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+#copyright{
+  color: white;
+}
+
+.a-row{
+  text-align: center;
+}
+
+.bottom-nav{
+  margin: auto;
+  /* margin-bot: calc(100vh - 50px); */
+}
+
+.fa {
+  font-size: 30px;
+  color: white;
+}
+
+.login-buttons {
+  background-color: var(--cyan);
+  border-color: var(--cyan);
+  letter-spacing: 2px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: .75rem .75rem
+}
+
+#bottom_nav_bar {
+  position: fixed;
+  left: 0%;
+  bottom: 0%;
+  width: 100%;
+  top: auto;
+}
+
+.bottomleft {
+  text-align: center;
+}

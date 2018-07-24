@@ -1,0 +1,27 @@
+nav {
+  background-color: var(--primary-color);
+  font-family: 'Raleway', san-serif;
+}
+
+.nav {
+  height: 4.5vh;
+}
+
+#logo {
+  height: 38px;
+  width: 100px;
+  margin: 0 0 4px 0;
+}
+
+.nav-link {
+  color: var(--secondary-color);
+}
+
+.nav-link:hover {
+  color: var(--cyan);
+  text-decoration: underline;
+}
+
+.bot-li-nav {
+  margin: 0 30px;
+}

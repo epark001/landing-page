@@ -1,0 +1,135 @@
+section {
+  height: 94vh;
+  font-family: 'Raleway', sans-serif;
+}
+
+#home-target {
+  position: fixed;
+}
+
+#background-video {
+  position: fixed;
+  z-index: -10000;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#home-container {
+  color: white;
+  height: 60%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#home-information {
+  height: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#home-information > h1, #how-container > h1 {
+  font-size: 4rem;
+  font-weight: 1000;
+  text-shadow: 2px 0 white;
+  letter-spacing: 2px;
+}
+
+#home-information > h3, h5 {
+  font-weight: 300;
+}
+
+#home-buttons {
+  width: 17%;
+  height: 30%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#home-buttons > .btn {
+  background-color: var(--cyan);
+  border-color: var(--cyan);
+  letter-spacing: 2px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: .75rem .75rem
+}
+
+#about {
+  height: 60vh;
+  background: var(--secondary-color);
+}
+
+#about-container {
+  padding-top: 5.5%;
+  margin-left: 13vw;
+}
+
+.card-body{
+  width: 25vw;
+  height: 100%;
+}
+
+.far, .fas {
+  font-size: 2.5rem;
+}
+
+#how {
+  height: 125%;
+  color: white;
+  background: var(--primary-color);
+}
+
+#how-container {
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#how-container > h1 {
+  margin-top: 5%;
+}
+
+#how-information {
+  margin-left: 7vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: row;
+  padding: 4% 0;
+}
+
+.info-card > img {
+  width: 400px;
+  height: 260px;
+}
+
+.how-info {
+  width: 30vw;
+  padding: 3% 5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.how-info > h1 {
+  font-weight: 800;
+}
+
+.how-info > p {
+  letter-spacing: 2px;
+}
+
+#giftit-card {
+  margin-left: -2%;
+}
+
+#how-information > h2 {
+  padding-bottom: 5vh;
+  margin-left: -20%;
+}

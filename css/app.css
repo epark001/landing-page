@@ -1,0 +1,115 @@
+.container{
+  width: 100%;
+}
+
+#first_section {
+    height: 100vh;
+    background-image: url("/overlay.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+}
+
+#canvas_section {
+    height: 100vh;
+    background-image: url("/CoffeeBackground.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+}
+
+#explore_section {
+    height: 100vh;
+    background-image: url("/CoffeeBackground.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+}
+
+#template_section {
+    height: 100vh;
+    background-image: url("/CoffeeBackground.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+}
+
+input[text]{
+  margin-top: 25%;
+}
+
+.searchbar-content {
+  position: absolute;
+  top: 45%;
+  width: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.searchbar-content input {
+  background-color: #fff;
+  border-right: none;
+  border: none;
+  color: #5e6572;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  width: 80%;
+  height: 45px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.searchbar-content button {
+  background-color: #fff;
+  border-left: none;
+  height: 45px;
+  position: absolute;
+}
+
+.ExampleText {
+  position: absolute;
+  top: 47%;
+  left: 20%;
+  font-family: Arial;
+  font-size: 25px;
+  opacity: 0.5;
+  color: white;
+}
+
+.spacing{
+  margin-top: 20px;
+}
+
+/* Templates CSS */
+#theme-list {
+  /* width: 80%; */
+  margin: 0 auto;
+  text-align: left;
+  color: #6d7fcc;
+  font-size: 1.5em;
+  margin-top: 20px;
+  overflow: auto;
+}
+
+.theme-ul {
+  list-style-type: none;
+}
+
+.theme-ul > li {
+  /* float: left; */
+  display:inline-block;
+  padding: 10px;
+  position: relative;
+}
+
+.theme-ul > li > img {
+  height: 250px;
+  width: 200px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.theme-ul > li > img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+/* END TEMPLATE CSS */

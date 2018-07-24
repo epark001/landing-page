@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Edwrd.io</title>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.polyfills.min.js"></script> -->
+    <script src="./js/smooth-scroll.polyfills.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/navbar.css"/>
+    <link rel="stylesheet" type="text/css" href="css/section.css"/>
+
+
+  </head>
+  <body>
+
+    <div id="home-target"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar sticky-top">
+
+      <img class="navbar-brand" id="logo" src="./images/edwrdiconwhite.png" alt="edwrd.io" >
+
+      <ul class="nav justify-content-end">
+
+        <li class="nav-item">
+          <a data-scroll class="nav-link active" href="#home-target">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a data-scroll class="nav-link" href="#about-target">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a  data-scroll class="nav-link" href="#how">How it works</a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+    <main>
+
+      <!-- Home Section -->
+      <section id="home">
+
+      <video autoplay muted loop id="background-video">
+        <source src="./images/homepage.mp4" type="video/mp4">
+      </video>
+
+        <!-- Container to keep UI styling -->
+        <div class="container" id="home-container">
+
+          <div class="container" id="home-information">
+            <h1>Celebrations made easy</h1>
+            <h3>Powered by Machine Learning and Artificial Intelligence</h3>
+            <h5>Made for the busy professional, by the busy professional</h5>
+          </div>
+
+          <div class="bottomleft">
+            <p id="demo" style="font-size: 45px; font-weight: 700;">41d 22h 41m 32s </p>
+            <p style="font-size:30px; font-weight: 250;">click it. gift it. send it. done.</p>
+          </div>
+
+          <!-- <div class="container" id="home-buttons">
+            <button type="button" class="btn btn-primary">Get Started</button>
+            <button type="button" class="btn btn-primary" onclick='location.href="/landing/login.html"'>Login</button>
+          </div> -->
+
+        </div>
+
+      </section>
+
+      <div id="about-target">
+      </div>
+
+      <!-- About Section -->
+      <section id="about">
+
+        <div class="container" id="about-container">
+
+          <div class="text-center">
+            <div class="card-body">
+              <i class="fas fa-smile-wink card-title"></i>
+              <h3 class="card-title">Our Story</h3>
+              <p class="card-text">We’ve gathered an unconventional team of developers from all backgrounds – a former teacher, a college student, a banker and a pizza delivery guy to create a powerful platform that uses the integration of social media and celebrations to deliver a high- quality, curated celebration experience.</p>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <div class="card-body">
+              <i class="far fa-circle card-title"></i>
+              <h3 class="card-title">Our Vision</h3>
+              <p class="card-text">A one stop platform for gifts, cakes, reservations and more - curated with the help of artificial intelligence and social media. With just a few clicks, customers can have flowers and other gifts delivered to right their door hours before they leave for the restaurant they've made reservations for. All from our app.</p>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <div class="card-body">
+              <i class="fas fa-bolt card-title"></i>
+              <h3 class="card-title">Our Technology</h3>
+              <p class="card-text">Artificial Intelligence and Machine Learning automate and simplify the delivery of highly curated, personalized gifts and experiences right to the ones you love.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- How Section -->
+      <section id="how">
+
+        <div class="container" id="how-container">
+
+          <h1 class="text-center">How does it work?</h1>
+
+          <div class="container" id="how-information">
+
+            <div class="info-card" id="clickit-card">
+
+              <img src="./images/ClickIt.jpg" alt="ClickIt">
+
+              <div class="how-info">
+                <h1 class="card-title text-center">Click It</h1>
+                <p class="card-text text-center">Create an entire celebration,</p>
+                <p class="card-text text-center">end-to-end, with just a few clicks.</p>
+              </div>
+
+            </div>
+
+            <div class="info-card" id="giftit-card">
+
+              <div class="how-info">
+                <h1 class="card-title text-center">Gift It</h1>
+                <p class="card-text text-center">Choose from curated flowers,</p>
+                <p class="card-text text-center">cakes, wines and more.</p>
+              </div>
+
+              <img src="./images/GiftIt.jpg" alt="GiftIt">
+
+            </div>
+
+            <div class="info-card" id="sendit-card">
+
+              <img src="./images/SendIt.jpg" alt="SendIt">
+
+              <div class="how-info">
+                <h1 class="card-title text-center">Send It</h1>
+                <p class="card-text text-center">Our seamless delivery system</p>
+                <p class="card-text text-center">takes care of the rest.</p>
+              </div>
+
+            </div>
+            <h2 class="text-center">The perfect celebration when and where you need it.</h1>
+          </div>
+        </div>
+      </section>
+    </main>
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+      <ul class="bottom-nav nav">
+        <li class="nav-item bot-li-nav">
+          <a target="_blank" href="https://www.facebook.com/edwrdapp/" class="nav-link active fa fa-facebook socialIcons"></a>
+        </li>
+        <li class="nav-item bot-li-nav">
+          <a class="nav-link active fa fa-google socialIcons"></a>
+        </li>
+        <li class="nav-item bot-li-nav">
+          <a target="_blank" href="https://www.instagram.com/edwrd.io/" class="nav-link active fa fa-instagram socialIcons"></a>
+        </li>
+        <li class="nav-item bot-li-nav">
+          <a target="_blank" href="https://twitter.com/IoEdwrd" class="nav-link active fa fa-twitter socialIcons"></a>
+        </li>
+      </ul>
+      <div>
+        <span id="copyright"> © 2018 Edwrd IO </span>
+      </div>
+    </nav>
+
+  </body>
+
+  <script>
+  	let scroll = new SmoothScroll('a[href*="#"]');
+
+    $("a[href='#top']").click(function() {
+      $("html, body").animate({ scrollTop: 0 }, "slow");
+      return false;
+    });
+
+    // COUNTDOWN TIMER
+    var countDownDate = new Date("Sept 3, 2018 15:30:25").getTime();
+    var countDownFunction = setInterval(function() {
+        var now = new Date().getTime();
+
+        var distance = countDownDate - now;
+
+         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+
+            if (distance < 0) {
+                clearInterval(countDownFunction);
+                document.getElementById("demo").innerHTML = "ItsHere";
+            }
+    }, 1000);
+
+    var modal = document.getElementById('id01');
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+    // END COUNTDOWN TIMER
+
+  </script>
+
+</html>
